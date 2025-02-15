@@ -1,0 +1,24 @@
+# Custom Proprietary License  
+Copyright (c) 2025 WlinkNET. All Rights Reserved.  
+
+This repository serves as an official reference for the development and maintenance of the 3DPass Blockchain Explorer. The actual source code of the explorer is **proprietary** and **not publicly available**. This repository only contains documentation and project-related information for review and bounty submission purposes.  
+
+## Terms and Conditions  
+
+### 1. Access and Use Restrictions  
+- No part of the software code, architecture, or implementation details is shared in this repository.  
+- You are **not authorized** to copy, modify, distribute, or create derivative works based on the 3DPass Blockchain Explorer without explicit written permission from WlinkNET.  
+
+### 2. Documentation and Reference  
+- The content provided in this repository is for informational purposes only and serves to document the development progress and maintenance of the 3DPass Blockchain Explorer.  
+- The information in this repository may not be reproduced, distributed, or used for commercial purposes without prior written consent.  
+
+### 3. Ownership and Attribution  
+- All improvements, modifications, and maintenance are carried out by WlinkNET.  
+- No other individual or third party is authorized to claim ownership, submit bounty requests, or represent this project without express permission.  
+
+### 4. Liability Disclaimer  
+The information and documentation provided in this repository are provided "as is," without any warranties or guarantees, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. WlinkNET shall not be held liable for any claim, damages, or other liability arising from the use or reliance on the information contained herein.  
+
+## Contact Information  
+For inquiries regarding permissions, development, or collaboration, please contact WlinkNET.
