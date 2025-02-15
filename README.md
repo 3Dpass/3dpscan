@@ -21,7 +21,7 @@ While the code remains private, this repository is used to:
 The 3DPass blockchain explorer is always accessible and free for all users to interact with the blockchain and its features.  
 
 ## License  
-This repository is licensed under the **MIT License**. Please see the [LICENSE](LICENSE) file for more details.  
+This repository is covered by a **Custom Proprietary License**. All rights are reserved by WlinkNET. Please see the [LICENSE](LICENSE) file for details.  
 
 ## Contact  
 For inquiries regarding development, updates, or support, feel free to contact me.
