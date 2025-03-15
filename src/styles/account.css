@@ -1,0 +1,173 @@
+.account-info-header {
+  width: 100%;
+
+  padding: 20px 30px;
+
+  background: #3d3d3d;
+
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+
+  border-radius: 12px 12px 0px 0px;
+}
+
+.account-info-holder {
+  display: inline-block;
+
+  width: 100%;
+
+  padding: 10px 20px;
+  margin-bottom: 30px;
+
+  background: #333333;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.account-left-info {
+  display: inline-block;
+
+  width: calc(100% - 270px);
+
+  text-align: left;
+
+  vertical-align: middle;
+}
+
+.account-right-info {
+  display: inline-block;
+
+  width: 270px;
+
+  text-align: center;
+
+  border-left: 1px solid #5d5d5d;
+
+  vertical-align: middle;
+}
+
+.graph-holder-account {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
+.graph-info-account {
+  display: inline-block;
+
+  width: calc(100% - 200px);
+  height: 200px;
+
+  padding: 20px 15px;
+
+  vertical-align: middle;
+}
+
+.one-graph-info {
+  display: inline-block;
+
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  text-align: left;
+}
+
+.graph-color {
+  display: inline-block;
+
+  width: 30px;
+  height: 30px;
+
+  margin-right: 15px;
+
+  border-radius: 50%;
+
+  vertical-align: middle;
+}
+
+.graph-label {
+  display: inline-block;
+
+  width: calc(100% - 50px);
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+
+  vertical-align: middle;
+}
+
+.block-span {
+  margin-left: 20px;
+
+  font-weight: 500;
+}
+
+.total-balance-infob {
+  display: inline-block;
+
+  padding: 20px 15px;
+
+  background: #5e5e5e;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+
+  border-radius: 12px;
+}
+
+.total-balance-infob span {
+  margin-left: 20px;
+}
+
+.balance-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Razmak između kartica */
+  justify-content: center; /* Centriranje kartica */
+}
+
+.total-balance-info {
+  display: flex;
+  flex-direction: column; /* Vertikalni raspored teksta unutar kartice */
+  justify-content: center;
+  align-items: center; /* Centriranje sadržaja */
+  padding: 20px 15px;
+  background: #5e5e5e;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  border-radius: 12px;
+  text-align: center; /* Poravnanje teksta */
+}
+
+.total-balance-info span {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .account-left-info,
+  .account-right-info {
+    width: 100%;
+
+    border: 0px none;
+  }
+
+  .graph-info-account {
+    width: 100%;
+
+    height: auto;
+  }
+
+  .account-info-holder {
+    padding: 10px;
+  }
+}

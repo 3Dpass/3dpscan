@@ -1,0 +1,265 @@
+.block-transfers-holder {
+  display: flex;
+
+  width: 100%;
+
+  justify-content: center;
+}
+
+.inline-home {
+  display: inline-block;
+
+  width: calc(50% - 10px);
+
+  vertical-align: top;
+}
+
+.home-left {
+  margin-right: 10px;
+}
+
+.home-right {
+  margin-left: 10px;
+}
+
+.block-icon-header {
+  background-size: 23px 26px;
+  background-image: url("../../public/images/block-icon.svg");
+}
+
+.transfer-icon-header {
+  background-size: 23px;
+  background-image: url("../../public/images/transfers-icon.svg");
+}
+
+.home-list-holder {
+  display: inline-block;
+
+  width: 100%;
+
+  padding: 10px 20px 20px 20px;
+
+  background: #333333;
+
+  border-radius: 0px 0px 12px 12px;
+}
+
+.home-list-inner {
+  display: inline-block;
+
+  width: 100%;
+
+  padding: 20px 0px;
+
+  border-bottom: 1px solid #5e5e5e;
+}
+
+.home-list-left {
+  display: inline-block;
+
+  width: 80%;
+
+  text-align: left;
+
+  vertical-align: middle;
+}
+
+.home-list-right {
+  display: inline-block;
+
+  width: 20%;
+
+  text-align: right;
+
+  vertical-align: middle;
+}
+
+.list-left-info {
+  width: 100%;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.list-left-info span {
+  font-weight: 500;
+  color: #00eb81;
+}
+
+.home-timestamp {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.transfer-value {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: right;
+  color: #00eb81;
+  word-break: break-all;
+}
+
+.home-info-items {
+  display: inline-block;
+
+  width: 100%;
+
+  margin-bottom: 50px;
+}
+
+.one-home-item {
+  display: inline-block;
+
+  width: calc(33% - 20px);
+
+  padding: 12px 20px;
+
+  background: #333333;
+  border-radius: 12px;
+
+  vertical-align: middle;
+}
+
+.line-info-holder {
+  display: inline-block;
+
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.middle-item {
+  margin: 0px 35px;
+}
+
+.left-info {
+  display: inline-block;
+
+  width: 50%;
+
+  text-align: left;
+
+  border-right: 1px solid #5e5e5e;
+
+  vertical-align: middle;
+}
+
+.right-value {
+  display: inline-block;
+
+  width: 50%;
+
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.left-info-icon {
+  display: inline-block;
+
+  width: 30px;
+  height: 30px;
+
+  margin-right: 10px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+  vertical-align: middle;
+}
+
+.left-info-title {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+
+  vertical-align: middle;
+}
+
+.l-block-icon {
+  background-size: 23px 26px;
+  background-image: url("../../public/images/block-icon.svg");
+}
+
+.l-transfer-icon {
+  background-size: 23px;
+  background-image: url("../../public/images/transfers-icon.svg");
+}
+
+.l-signed-icon {
+  background-size: 24px 30px;
+  background-image: url("../../public/images/signed-icon.svg");
+}
+
+.l-holder-icon {
+  background-size: 24px 26px;
+  background-image: url("../../public/images/holder.svg");
+}
+
+.l-total-icon {
+  background-size: 23px 26px;
+  background-image: url("../../public/images/t-icon.svg");
+}
+
+.l-cirlce-icon {
+  background-size: 24px;
+  background-image: url("../../public/images/circle-icon.svg");
+}
+
+.l-validators-icon {
+  background-size: 24px 30px;
+  background-image: url("../../public/images/validators-icon.svg");
+}
+
+.l-max-icon {
+  background-size: 23px 26px;
+  background-image: url("../../public/images/m-icon.svg");
+}
+
+.l-price-icon {
+  background-size: 30px;
+  background-image: url("../../public/images/price-icon.svg");
+}
+
+@media (max-width: 1400px) {
+  .inline-home {
+    width: 100%;
+
+    margin-bottom: 20px;
+  }
+
+  .block-transfers-holder {
+    display: block;
+  }
+
+  .home-right {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .line-info-holder {
+    margin-bottom: 0px;
+  }
+
+  .middle-item {
+    margin-left: 0px;
+  }
+
+  .one-home-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

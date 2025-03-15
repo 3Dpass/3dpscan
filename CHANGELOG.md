@@ -63,3 +63,7 @@ New features and improvements focused on transaction details and custom standard
 3. **Bounty History**
    - Introduced a new section that lists all bounties, both active and completed, for transparency and tracking purposes.
 
+## [2.1.1] - March 2025
+
+### Open Source
+1. **Project from this date belong to the 3dpass team!**

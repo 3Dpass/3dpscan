@@ -1,0 +1,43 @@
+.pagination-container {
+  display: inline-block;
+
+  width: 100%;
+
+  margin-top: 20px;
+
+  text-align: right;
+}
+
+.button-pagination {
+  display: inline-block;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: #5e5e5e;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px 14px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+}
+
+.next-icon {
+  background-image: url("../../public/images/arrow-right.svg");
+}
+
+.previous-icon {
+  background-image: url("../../public/images/arrow-right.svg");
+  transform: rotate(180deg);
+}
+
+.first-btn {
+  margin-right: 20px;
+}
+
+.disabled {
+  opacity: 0.2;
+  cursor: auto;
+}
