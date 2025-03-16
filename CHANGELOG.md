@@ -66,4 +66,4 @@ New features and improvements focused on transaction details and custom standard
 ## [2.1.1] - March 2025
 
 ### Open Source
-1. **Project from this date belong to the 3dpass team!**
+1. **Project from this date belong to the 3dpass team and community!**
